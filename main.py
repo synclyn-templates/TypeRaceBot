@@ -16,7 +16,7 @@ from datetime import datetime
 
 #MongoDb
 myclient = pymongo.MongoClient(os.getenv('MONGODB_CONNECTION_STRING'))
-mydb = myclient["TypeRaceBotTest"]
+mydb = myclient["TypeRaceBot"]
 userdata = mydb["User"]
 
 load_dotenv()
